@@ -6,7 +6,7 @@
   "description_for_model": "Search google and return the first 10 url as results",
   "api": {
     "type": "openapi",
-    "url": "https://inter-gpt.vercel.app//openapi.yaml",
+    "url": "https://inter-gpt.vercel.app/openapi.yaml",
     "has_user_authentication": false
   },
   "auth": {
