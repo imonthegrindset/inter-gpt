@@ -1,11 +1,18 @@
 {
-    "name": "Search Google",
-    "description": "A plugin that searches Google for the first 10 urls",
-    "api_spec_url": "https://inter-gpt.vercel.app/openapi.json",
-    "logo_url": "https://inter-gpt.vercel.app/logo.png",
-    "homepage": "https://inter-gpt.vercel.app/",
-    "authentication": {
+  "schema_version": "v1",
+  "name_for_human": "Search user",
+  "name_for_model": "search google",
+  "description_for_human": "Plugin to search google for the first 10 results",
+  "description_for_model": "Plugin to search google for the first 10 results",
+  "auth": {
       "type": "none"
-    }
-  }
-  
+  },
+  "api": {
+      "type": "openapi",
+      "url": "https://inter-gpt.vercel.app/openapi.json",
+      "is_user_authenticated": false
+  },
+  "logo_url": "https://inter-gpt.vercel.app//logo.png",
+  "contact_email": "kipper.essay@gmail.com",
+  "legal_info_url": "https://inter-gpt.vercel.app/"
+}
