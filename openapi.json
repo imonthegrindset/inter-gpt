@@ -5,9 +5,9 @@
         "version": "1.0.0"
     },
     "paths": {
-        "/weather": {
+        "/api/internet": {
             "get": {
-                "summary": "Search google for the first 10 url results",
+                "summary": "search google for the first 10 url results",
                 "parameters": [
                     {
                         "in": "query",
@@ -15,7 +15,7 @@
                         "schema": {
                             "type": "string"
                         },
-                        "description": "Search results for the query (first 10 urls)",
+                        "description": "search results for the query (first 10 urls)",
                         "required": true
                     }
                 ],

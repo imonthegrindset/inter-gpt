@@ -1,9 +1,9 @@
 {
     "name": "Search Google",
     "description": "A plugin that searches Google for the first 10 urls",
-    "api_spec_url": "https://yourdomain.com/openapi.yaml",
-    "logo_url": "https://yourdomain.com/logo.png",
-    "homepage": "https://yourdomain.com",
+    "api_spec_url": "https://inter-gpt.vercel.app/openapi.json",
+    "logo_url": "https://inter-gpt.vercel.app/logo.png",
+    "homepage": "https://inter-gpt.vercel.app/",
     "authentication": {
       "type": "none"
     }
