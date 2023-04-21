@@ -1,0 +1,29 @@
+openapi: 3.0.1
+info:
+  title: Search google
+  description: Search google for the first 10 results
+  version: 'v1'
+servers:
+  - url: https://inter-gpt.vercel.app/
+paths:
+  /api/internet:
+    get:
+      operationId: searchGoogle
+      summary: Search google
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/searchGoogle'
+components:
+  schemas:
+    searchGoogle:
+      type: object
+      properties:
+        todos:
+          type: array
+          items:
+            type: string
+          description: search results

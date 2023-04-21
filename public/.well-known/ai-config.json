@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "SearchGoogleGPT",
+  "name_for_human": "SearchGoogleGPT",
+  "description_for_human": "Search google",
+  "description_for_model": "Search google and return the first 10 url as results",
+  "api": {
+    "type": "openapi",
+    "url": "https://inter-gpt.vercel.app//openapi.json",
+    "has_user_authentication": false
+  },
+  "auth": {
+    "type": "none"
+  },
+  "logo_url": "https://inter-gpt.vercel.app/logo.png",
+  "contact_email": "kipper.essay@gmail.com",
+  "legal_info_url": "https://inter-gpt.vercel.app/"
+}
