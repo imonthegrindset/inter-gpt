@@ -1,0 +1,37 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Search google API",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/weather": {
+            "get": {
+                "summary": "Search google for the first 10 url results",
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "serch query",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "description": "Search results for the query (first 10 urls)",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "10 first search results",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
